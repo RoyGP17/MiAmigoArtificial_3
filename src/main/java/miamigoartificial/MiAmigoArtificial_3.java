@@ -33,7 +33,7 @@ public class MiAmigoArtificial_3 {
         System.out.println("Que fabuloso nombre tienes, " + ObjetoA.getNombres() + "."
                 + "\n y sabes, seré tu mejor amigo o mejor dicho seremos grandes amigos!!"
                 + "\n Te acompañaré por mil años asi que necesito que me cuides si quieres"
-                + "\n que te acompañe por estas hermosas avenmturas");
+                + "\n que te acompañe por estas hermosas aventuras");
 
         MostrarMensaje(nombre);
     }

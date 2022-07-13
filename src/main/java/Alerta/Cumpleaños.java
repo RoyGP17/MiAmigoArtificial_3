@@ -27,9 +27,11 @@ public class Cumpleaños extends Alerta {
         int mes = date.getMonth() + 1;
         int dia = date.getDay() + 3;
 
-        if (m >= mes && d >= dia) { //Si tu cumpleaños aun no llega
+        if (m >= mes && d >= dia)
+        { //Si tu cumpleaños aun no llega
             fut.set(año, m, d);
-        } else {
+        } else
+        {
             fut.set(año + 1, m, d);
         }
 
@@ -40,12 +42,13 @@ public class Cumpleaños extends Alerta {
         long diferencia = futuroA - actualA;
         long diferenciadias = diferencia / (24 * 60 * 60 * 1000); //Conversion de milisegundos a dias
 
-        if (calendario.isLeapYear(año)) {
+        if (calendario.isLeapYear(año))
+        {
             System.out.println("Tu cumpleaños es en " + (diferenciadias + 1) + " dias");
-        } else {
+        } else
+        {
             System.out.println("Tu cumpleaños ya paso, pero en " + (diferenciadias)
                     + " dias sera tu proximo cumpleaños");
-
         }
     }
 }

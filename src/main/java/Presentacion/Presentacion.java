@@ -9,12 +9,13 @@ public class Presentacion {
     
     public static void saludar(){
         System.out.println("\n\tPROJETCS: MI AMIGO ARTIFICIAL");
-        System.out.println("Fui creado el año 1969 fecha en la que el hombre dio un salto "+
-            "Pero no de un salto, sino un salto de la humanidad del hombre vale");
+        System.out.println("""
+                           Fui creado el año 1969 fecha en la que el hombre dio un salto 
+                           Pero no de un salto, sino un salto de la humanidad del hombre vale""");
     } 
     
     public static void adivinarEdad(){
-        System.out.println("\nMira te digo: Que soy increible adivinando tu edad y apuesto que lo haré");
+        System.out.println("\nMira te digo, Que soy increible adivinando tu edad y apuesto que lo haré");
         System.out.println("Asi que comenzamos");
         System.out.println("Cúal es el resto al dividir tu edad por 3");
         int resto3 = entrada.nextInt();
