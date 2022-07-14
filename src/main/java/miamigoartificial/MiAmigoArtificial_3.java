@@ -23,6 +23,18 @@ public class MiAmigoArtificial_3 {
         adivinarEdad();
         ObtenerRecomendaciones();
         AlertaCumpleaños();
+        
+       //Codigo de afid
+       
+       
+       //-----------
+        //lUCY
+               
+               
+               
+               
+         //------
+               
     }
 
     public static void recordarNombre() {
