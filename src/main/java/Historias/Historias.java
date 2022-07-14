@@ -1,6 +1,5 @@
 package Historias;
 
-
 import Historias.LibroDrama;
 import Historias.LibroComedia;
 import Historias.LibroAventura;

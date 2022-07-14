@@ -9,5 +9,5 @@ package Interfaz;
  * @author FRITZBRENNER
  */
 public class Video {
-    
+
 }

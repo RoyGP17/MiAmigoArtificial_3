@@ -2,9 +2,7 @@ package Alerta;
 
 import Presentacion.Usuario;
 import java.util.Date;
-import java.util.Scanner;
 import java.util.TimerTask;
-import javax.swing.JOptionPane;
 
 public class RecordarFecha extends TimerTask {
 
