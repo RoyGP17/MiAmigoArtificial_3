@@ -20,13 +20,19 @@ public class ChistesRojos {
             
             System.out.println("Un elefante se encuentra con un camello, y le pregunta:\n" +
             "¿cómo es que tienes los pechos en la espalda?\n" +
-            "¿y tú me lo preguntas, que llevas el miembro en la cara?"+
-            "******************************************"+
+            "¿y tú me lo preguntas, que llevas el miembro en la cara?\n"+
+            "******************************************\n"+
             "Mamá, tengo dos noticias, una buena y una mala.\n" +
             "Primero la buena, hija.\n" +
             "Pasé una prueba.\n" +
             "Muy bien, ¿Y la mala?\n" +
-            "Que era un Test de embarazo...");
+            "Que era un Test de embarazo...\n"+
+            "******************************************\n"+
+            "Al final, he decidido hacerme la vasectomía.\n" +
+            "Habrá tenido que ser una decisión difícil ¿no?\n" +
+            "Ya lo creo. Hicimos una votación popular entre mis hijos,\n"+
+            "mi mujer y yo, y al final perdí por 16 a 17.\n");
+                    
             Scanner entra1 = new Scanner(System.in);
             System.out.println("¿Quieres más chistes ROJOS: ?");
             String respuesta1 = entra1.nextLine();

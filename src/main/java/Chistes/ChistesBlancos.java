@@ -25,14 +25,22 @@ public class ChistesBlancos {
             "- No Señor, esto es una Estufa"+
             "*************************************"+
             "YO VIVO A BASE DE VITAMINA C\n" +
-            "\n" +
             "-COMPUTADORA\n" +
-            "\n" +
             "-CELULAR\n" +
-            "\n" +
-            "-COMIDA\n" +
-            "\n" +
-            "-CAMA");
+            "-COMIDA\n"+
+            "-CAMA\n"+
+            "*************************************"+
+            "Estoy embarazada de ti\n"+
+            "Eso es imposible, yo nací hace mucho tiempo\n"+
+            "*************************************"+
+            "Primer año que no viajo a Europa\n"+
+            "Los otros años fue por pobre ....\n"+
+            "¿Pasaste el examen de Química?\n"+
+            "NaH, ni de Bromo\n"+
+            "¿Estuvo dificil?\n"+
+            "Cloro que sí, Nitrato de hacerlo\n"+
+            "Gracias\n"+
+            "Ácido un placer\n");
             Scanner entra1 = new Scanner(System.in);
             System.out.println("¿Quieres más chistes BLANCOS: ?");
             String respuesta1 = entra1.nextLine();
@@ -42,7 +50,7 @@ public class ChistesBlancos {
                 System.out.println("– ¿Me puede ayudar, por favor ? Mi hija se ha perdido \n" +
                 "- ¿Cómo se llama su hija?\n"+
                 "- Esperanza\n"+
-                "- Imposible, La esperanza es lo último que se pierde"+
+                "- Imposible, La esperanza es lo último que se pierde\n"+
                 "*************************************"+
                 "¡A MÍ NADIE ME DA ÓRDENES!\n" +
                 "\n" +
