@@ -17,9 +17,10 @@ public class Chistes {
             System.out.println("2. Chistes Buenos");
             System.out.println("3. Chistes Inteligentes");
             System.out.println("4. Chistes Rojos");
-            System.out.println("5. Salir");
+            System.out.println("5. VOLVER");
 
-            System.out.println("Por favor digite la opcion: ");
+            
+            System.out.println("POR FAVOR INGRESE LA OPCION: ");
             //Entrada para la opción
             opcion = scanner.nextInt();
             switch (opcion)
@@ -43,7 +44,7 @@ public class Chistes {
             }
 
         } while (opcion != 5);
-        System.out.println("EL PROGRAMA HA FINALIZADO");
+        System.out.println("¡Ay! ¿YA TE VAS CUIDATE?");
 
     }
 

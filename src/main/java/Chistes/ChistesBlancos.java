@@ -7,9 +7,9 @@ public class ChistesBlancos extends Chistes {
     public static void blancos() {
         Scanner entra = new Scanner(System.in);
 
-        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES"
+        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES ??"
                 + "\nSi estás seguro de que quieres leer LOS MEJORES CHISTES BLANCOS digite ***blancos***\n"
-                + "y si no digite SALIR");
+                + "y si no digite VOLVER");
         String respuesta = entra.nextLine();
 
         if (respuesta.equals("blancos") == true)
@@ -17,18 +17,18 @@ public class ChistesBlancos extends Chistes {
 
             System.out.println("¿Cuánto cuesta esta estufa?\n"
                     + "6000 dolares\n"
-                    + "- Pero, esto es una estafa"
-                    + "- No Señor, esto es una Estufa"
-                    + "*************************************"
+                    + "- Pero, esto es una estafa\n"
+                    + "- No Señor, esto es una Estufa\n"
+                    + "*************************************\n"
                     + "YO VIVO A BASE DE VITAMINA C\n"
                     + "-COMPUTADORA\n"
                     + "-CELULAR\n"
                     + "-COMIDA\n"
                     + "-CAMA\n"
-                    + "*************************************"
+                    + "*************************************\n"
                     + "Estoy embarazada de ti\n"
                     + "Eso es imposible, yo nací hace mucho tiempo\n"
-                    + "*************************************"
+                    + "*************************************\n"
                     + "Primer año que no viajo a Europa\n"
                     + "Los otros años fue por pobre ....\n"
                     + "¿Pasaste el examen de Química?\n"
@@ -38,9 +38,9 @@ public class ChistesBlancos extends Chistes {
                     + "Gracias\n"
                     + "Ácido un placer\n");
             Scanner entra1 = new Scanner(System.in);
-            System.out.println("¿Quieres más chistes BLANCOS: ?");
+            System.out.println("Si quieres más chistes BLANCOS digite **si**: ");
             String respuesta1 = entra1.nextLine();
-
+            
             if (respuesta1.equals("si") == true)
             {
                 System.out.println("Como usted diga");
@@ -48,7 +48,7 @@ public class ChistesBlancos extends Chistes {
                         + "- ¿Cómo se llama su hija?\n"
                         + "- Esperanza\n"
                         + "- Imposible, La esperanza es lo último que se pierde\n"
-                        + "*************************************"
+                        + "*************************************\n"
                         + "¡A MÍ NADIE ME DA ÓRDENES!\n"
                         + "\n"
                         + "“10% DE BATERÍA. CONECTE EL CARGADOR”.\n"
@@ -62,7 +62,7 @@ public class ChistesBlancos extends Chistes {
         } else
         {
             System.out.println("ENTIENDO \n"
-                    + "YA NO LE CONTAREMOS CHISTES BLANCOS "
+                    + "YA NO LE CONTAREMOS CHISTES BLANCOS \n"
                     + "PERO, SI DESEA OTRO TIPO DE CHISTES VUELVA A DIGITAR UNA OPCIÓN");
 
         }

@@ -7,9 +7,9 @@ public class ChistesRojos extends Chistes {
     public static void Rojos() {
         Scanner entra = new Scanner(System.in);
 
-        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES"
+        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES ???"
                 + "\nSi estás seguro de que quieres leer MEJORES CHISTES ROJOS digite ***rojos***\n "
-                + "y si no digite cualquier número");
+                + "y si no digite VOLVER");
         String respuesta = entra.nextLine();
 
         if (respuesta.equals("rojos") == true)
@@ -31,7 +31,7 @@ public class ChistesRojos extends Chistes {
                     + "mi mujer y yo, y al final perdí por 16 a 17.\n");
 
             Scanner entra1 = new Scanner(System.in);
-            System.out.println("¿Quieres más chistes ROJOS: ?");
+            System.out.println("Si Quieres más chistes ROJOS digite **Si**: ?");
             String respuesta1 = entra1.nextLine();
 
             if (respuesta1.equals("si") == true)
@@ -39,9 +39,9 @@ public class ChistesRojos extends Chistes {
                 System.out.println("Como usted diga");
                 System.out.println("¿Cuáles son las mujeres que mejor conocen su cuerpo?\n"
                         + "- Aquellas que se tocan, porque lo conocen al dedillo…"
-                        + "***************************************************"
+                        + "***************************************************\n"
                         + "Una madre le dice a su hijo: ¡Me dice un pajarito que te drogas!\n"
-                        + "¡La que se droga eres tú que habla con pajaritos!");
+                        + "¡La que se droga eres tú que habla con pajaritos!\n");
             } else
             {
                 System.out.println("Entiendo, ya no le contaremos más chistes rojos");
