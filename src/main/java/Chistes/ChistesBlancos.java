@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author hp
  */
-public class ChistesBlancos {
+public class ChistesBlancos extends Chistes{
     
     public static void blancos(){
         Scanner entra = new Scanner(System.in);
