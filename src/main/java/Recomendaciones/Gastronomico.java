@@ -7,10 +7,12 @@ public class Gastronomico extends Recomendacion {
     
     Scanner entrada = new Scanner(System.in);
     
+    
     @Override
     public void recomendacionGastronomica(){
         
-        System.out.println("\nELIJA EL TIPO DE COMIDA DE SU PREFERENCIA: ");
+        System.out.println("\nMira que te puedo recomendar"
+                + "\n el tipo de comida de tu preferencia elije uno va.");
         int opcion = 0;
         int opcion1 = 0;
         int opcion2 = 0;
@@ -18,7 +20,7 @@ public class Gastronomico extends Recomendacion {
         do{
             System.out.println("1. Amazonicos");
             System.out.println("2. Criollos");
-            System.out.println("3. salir");
+            System.out.println("3. volver");
             opcion = entrada.nextInt();
             switch(opcion){
                 case 1:
@@ -88,6 +90,10 @@ public class Gastronomico extends Recomendacion {
                         case 15:
                             System.out.println("El precio de Carpacho de cabrilla es: " + 30.00);
                             break;
+                        case 16:
+                            break;
+                        default:
+                            System.out.println("Elija una opcion correcta");
                     }
                     break;
                 case 2:
@@ -102,8 +108,8 @@ public class Gastronomico extends Recomendacion {
                     System.out.println("\t8. Cabrito a la norteña");
                     System.out.println("\t9. Chaufa de carne de lomo fino");
                     System.out.println("\t10. Chaufa de pollo");
+                    System.out.println("\t11. volver");
                     System.out.println("SELECCIONA UN PLATO");
-                    
                     opcion2 = entrada.nextInt();
                     
                     switch(opcion2){
@@ -137,6 +143,10 @@ public class Gastronomico extends Recomendacion {
                         case 10:
                             System.out.println("El precio de Chaufa de pollo es: " + 15.00);
                             break;
+                        case 11:
+                            break;
+                        default:
+                            System.out.println("Elija una opcion correcta");
                     }
                     break;
                 case 3:

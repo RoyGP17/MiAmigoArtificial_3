@@ -9,7 +9,8 @@ public class Lista {
 
         List<String> CarrerasUnsch = new ArrayList<String>();
         System.out.println("\nLa universidad nacional de san cristobal de huamanga "
-                + " cuenta con las carreras de: ");
+                + "\ncuenta con las siguientes carreras de amplio desarrollo las cuales "
+                + "\nyo te recomiendo estudiar: ");
         CarrerasUnsch.add("\nCarrera profesional de agronomia");
         CarrerasUnsch.add("\nCarrera profesional de medicina veterinaria");
         CarrerasUnsch.add("\nCarrera profesional de ingeniería agricola");
@@ -40,12 +41,15 @@ public class Lista {
         CarrerasUnsch.add("\nCarrera profesional de obstetricia");
         System.out.println(CarrerasUnsch);
     }
+    
+    
 
     public static void ListacarrerasUnsaac() {
 
         List<String> CarrerasUnsaac = new ArrayList<String>();
-        System.out.println("\nLa universidad nacional san antonodio de abad de cusco"
-                + " cuenta con las carreras de: ");
+        System.out.println("\nLa universidad nacional de san Antonio de Abad del Cusco "
+                + "\ncuenta con las siguientes carreras de amplio desarrollo en nuestro "
+                + "pais las cuales yo te recomiendo estudiar en esta bella universidad.");
         System.out.println("GRUPO A");
         CarrerasUnsaac.add("\nCarrera profesional de arquitectura");
         CarrerasUnsaac.add("\nCarrera profesional de ingeniería electrica");
