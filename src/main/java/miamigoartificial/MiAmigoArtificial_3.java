@@ -23,6 +23,7 @@ import Historias.LibroComedia;
 import Historias.LibroAventura;
 import Historias.AdministradorLibros;
 import Historias.Historias;
+import static Presentacion.Presentacion.saludoPrincipal;
 
 import javax.swing.JOptionPane;
 import java.util.Scanner;
@@ -31,14 +32,9 @@ public class MiAmigoArtificial_3 extends JPanel {
 
     private static final int ANCHO = 1164;
     private static final int LARGO = 690;
-
     final static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        //Presentacion
-        String a = "Yo soy tu amigo artificial";
-        JOptionPane.showMessageDialog(null, "¡Hola!, dejame presentarme: " + a + "\nJarvis");
-
         /*//Objetos de libro(Hafid)
          LibroDrama oLibroDrama1 = new LibroDrama(1,"Henry James","\n\tLas bostonianas","Drama","En 1885, Henry James "
             + "\nes un escritor que tiene el reconocimiento del público y la crítica. "
@@ -160,11 +156,35 @@ public class MiAmigoArtificial_3 extends JPanel {
         /*
         Administrador1.menu();
          */
-        saludar();
-        recordarNombre();
-        adivinarEdad();
-
-        int OpcionDeEntrada = 0;
+        //INVOCAMOS MÉTODOS 
+        if (saludoPrincipal() <2){
+            JOptionPane.showMessageDialog(null, "Sigamos, pues :) \nMira la terminal");
+            //objP.saludoPrincipal();
+            saludar();
+            recordarNombre();
+            adivinarEdad();
+            HacerEleccion();
+            } 
+        else {
+            //Despedida
+            ValidarDespedida();
+            System.out.println("Mucho gusto mi querido amigo, me encanto ser tu amigo "
+                + "\nen estos mil años de aventura");
+        }
+    }
+    public static void ValidarDespedida() throws IOException{
+            if (Presentacion.despedida()== 0)
+            {
+                //Mostrar ventana de despedida y video
+                AñadirVentana();
+            } else {
+                JOptionPane.showMessageDialog(null, "Vuelve pronto, tq <3");
+                System.exit(0);
+            }
+    }
+    public static void HacerEleccion() throws IOException {
+                int OpcionDeEntrada = 0;
+                Presentacion objP = new Presentacion();
         do
         {
             System.out.println("\nHey! que te gustaria jugar comnigo");
@@ -173,7 +193,7 @@ public class MiAmigoArtificial_3 extends JPanel {
             System.out.println("3. CHISTES");
             System.out.println("4. HISTORIAS");
             System.out.println("5. RECOMENDACIONES");
-            System.out.println("0. salir");
+            System.out.println("6. salir");
             OpcionDeEntrada = entrada.nextInt();
             switch (OpcionDeEntrada)
             {
@@ -192,23 +212,14 @@ public class MiAmigoArtificial_3 extends JPanel {
                 case 5:
                     ObtenerRecomendaciones();
                     break;
+                case 6:
+                    ValidarDespedida();
                 default:
                     System.out.println("OPCION INCORRECTA!");
             }
         } while (OpcionDeEntrada != 0);
-        System.out.println("Mucho gusto mi quirido amigo, me encanto ser tu amigo "
-                + "\nen estos mil años de aventura");
-
-        if (Presentacion.siguiente() == 0)
-        {
-            AñadirVentana();
-        } else
-        {
-            JOptionPane.showMessageDialog(null, "Vuelve pronto");
-        }
-
     }
-
+    
     public static void AñadirVentana() throws IOException {
         //Creamos la ventana
         JFrame Ventana1 = new JFrame("Mi Amigo Artificial");

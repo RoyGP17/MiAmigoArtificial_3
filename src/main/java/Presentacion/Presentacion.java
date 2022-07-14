@@ -1,5 +1,6 @@
 package Presentacion;
 
+import java.awt.Image;
 import java.util.Scanner;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
@@ -7,7 +8,16 @@ import javax.swing.JOptionPane;
 public class Presentacion {
 
     final static Scanner entrada = new Scanner(System.in);
-
+public static int saludoPrincipal() {
+         String a = "Yo soy tu amigo artificial";
+        //Mostrar JOption en la ventana como saludo
+        ImageIcon icono = new ImageIcon("C:\\Users\\FRITZBRENNER\\Desktop\\MiAmigoArtificial_3\\src\\main\\java\\Imagenes\\gato.png");
+        Image image = icono.getImage();
+        Image nuevaimg = image.getScaledInstance(150, 150,  java.awt.Image.SCALE_SMOOTH);
+        icono = new ImageIcon(nuevaimg);
+        int seleccionSaludo = JOptionPane.showConfirmDialog(null, "¡Hola!, dejame presentarme: " + a + "\nMeowDem\n¿Desea continuar?", "Saludo:3", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, icono);
+        return seleccionSaludo;
+}
     public static void saludar() {
         System.out.println("\n\tPROJETCS: MI AMIGO ARTIFICIAL");
         System.out.println("""
@@ -30,13 +40,14 @@ public class Presentacion {
         System.out.println("el signo nega y posi");
     }
 
-    //mOSTRAR EL jOPTION SHOWcONFIRM dIALOG
-    public static int siguiente() {
+    //Mostrar JOption en la ventana
+    public static int despedida() {
         ImageIcon icono = new ImageIcon("C:\\Users\\FRITZBRENNER\\Desktop\\MiAmigoArtificial_3\\src\\main\\java\\Imagenes\\rainbow-neko.gif");
         /*Image image = icono.getImage();
         Image newimg = image.getScaledInstance(120, 120,  java.awt.Image.SCALE_SMOOTH);
         icono = new ImageIcon(newimg);*/
-        int seleccion = JOptionPane.showConfirmDialog(null, "Podemos continuar?", "Siii", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, icono);
+        int seleccion = JOptionPane.showConfirmDialog(null, "¿Deseas ver un video?", "Despedida:c", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, icono);
         return seleccion;
     }
+    
 }
