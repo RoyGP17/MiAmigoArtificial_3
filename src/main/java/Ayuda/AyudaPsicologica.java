@@ -12,9 +12,7 @@ public class AyudaPsicologica extends Ayuda{
     
     @Override
     public void Cordial(){
-        System.out.println("\nHola que tal, en que deseas que"
-                + "\nte ayude, mira te mostraré las opciones para"
-                + "\nescojas okey.");
+        System.out.println("\nWELCOME, A LA ZONA DE ESTAR BIEN CON UNO MISMO!!");
     }
     
    
@@ -22,7 +20,7 @@ public class AyudaPsicologica extends Ayuda{
     public void mostrarOpciones(){
         System.out.println("\n1. DESEAS QUE TE MOTIVE");
         System.out.println("2. AUTOCONOCERSE: CANCIÓN LETRAS");
-        System.out.println("3. NINGUNA");
+        System.out.println("3. VOLVER");
         //entrada.nextInt();
         int resta = entrada.nextInt();
         switch(resta){
@@ -31,8 +29,8 @@ public class AyudaPsicologica extends Ayuda{
                         + "\nsolo tienes que seguir adelante, no pienses solo continua, no piense mucho lo que estas haciendo,"
                         + "\nluego un dia te darás cuenta que has crecido demasiado esa es la verdad para superar un bajón"
                         + "\nalgunas personas hacen sonar como si tuviera que hacer algo especial no es cierto solo tienes que"
-                        + "\nseguir y no es triste por no mejorar habrás mejorado antes de que te des cuenta."
-                        + "\nDicen que es mas oscuro justo antes de que el sol salga. Tambié las estrellas que adoras solo brillan"
+                        + "\nseguir y no estes triste por no mejorar habrás mejorado antes de que te des cuenta."
+                        + "\nDicen que es mas oscuro justo antes de que el sol salga. También las estrellas que adoras solo brillan"
                         + "\nen la noche. ¡Ánimo todo estará bien!. Te lo garantizo todo funcionara."
                         + "\nMira a qui tengo otras frases wooo"
                         + "\n1.Eres muy joven para dejar que el mundo te rompa. (Kin Taehyung)" 

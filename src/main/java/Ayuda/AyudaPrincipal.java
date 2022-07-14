@@ -38,7 +38,7 @@ public class AyudaPrincipal {
 
                     break;
                 default:
-                    System.out.println("\nEstimad@ ingrese el dato bien porfis");
+                    System.out.println("\nIngrese el dato bien, porfis");
             }
         } while (rpt != 0);
 

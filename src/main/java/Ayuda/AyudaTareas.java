@@ -12,8 +12,8 @@ public class AyudaTareas extends Ayuda{
     
     @Override
     public void Cordial(){
-        System.out.println("\nQue tarea deseas que\n"
-                + "te ayude, mira te mostraré lo que sé vale");
+        System.out.println("\nQue tal, como te va, estás son las tareas"
+                + "que sé");
     }
     
     
@@ -21,7 +21,7 @@ public class AyudaTareas extends Ayuda{
     public void mostrarOpciones(){
         System.out.println("\nAYUDIN NO, JAJA ESCOGE UNO HEE");
         System.out.println("1. APRENDER CANTANDO");
-        System.out.println("2. NINGUNA");
+        System.out.println("2. VOLVER");
         
         int respuesta = entrada.nextInt();
         
