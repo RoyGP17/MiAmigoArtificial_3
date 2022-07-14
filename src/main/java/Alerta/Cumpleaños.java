@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Calendar; //leer fecha actual y fecha futura
 import java.util.Date; //Obtener la fecha y hora del sistema
 import java.util.GregorianCalendar; //Calcular si es el año bisiesto
+import javax.swing.JOptionPane;
 
 public class Cumpleaños extends Alerta {
 
@@ -45,10 +46,40 @@ public class Cumpleaños extends Alerta {
         if (calendario.isLeapYear(año))
         {
             System.out.println("Tu cumpleaños es en " + (diferenciadias + 1) + " dias");
+            int seleccion = JOptionPane.showOptionDialog(
+                    null, "Pregunta", "¿Quieres continuar?",
+                    JOptionPane.YES_NO_OPTION,
+                    JOptionPane.QUESTION_MESSAGE,
+                    null, // null para icono por defecto.
+                    new Object[]
+                    {
+                        "Si", "No"
+                    },
+                    "opcion 2");
+            if (seleccion == 1)
+            {
+                //Con esto se cierra toda la aplicación
+                System.exit(0);
+            }
         } else
         {
             System.out.println("Tu cumpleaños ya paso, pero en " + (diferenciadias)
                     + " dias sera tu proximo cumpleaños");
+            int seleccion = JOptionPane.showOptionDialog(
+                    null, "Pregunta", "¿Quieres continuar?",
+                    JOptionPane.YES_NO_OPTION,
+                    JOptionPane.QUESTION_MESSAGE,
+                    null, // null para icono por defecto.
+                    new Object[]
+                    {
+                        "Si", "No"
+                    },
+                    "opcion 2");
+            if (seleccion == 1)
+            {
+                //Con esto se cierra toda la aplicación
+                System.exit(0);
+            }
         }
     }
 }
