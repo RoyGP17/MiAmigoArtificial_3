@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Lista {
 
-    
     public static void ListacarrerasUnsch() {
 
         List<String> CarrerasUnsch = new ArrayList<String>();
@@ -42,8 +41,6 @@ public class Lista {
         CarrerasUnsch.add("\nCarrera profesional de obstetricia");
         System.out.println(CarrerasUnsch);
     }
-    
-    
 
     public static void ListacarrerasUnsaac() {
 

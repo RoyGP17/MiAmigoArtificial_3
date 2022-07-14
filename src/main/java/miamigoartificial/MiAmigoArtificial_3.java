@@ -181,6 +181,7 @@ public class MiAmigoArtificial_3 extends JPanel {
                     AlertaCumpleaños();
                     break;
                 case 2:
+                    ObtenerAyuda();
                     break;
                 case 3:
                     ObtenerChistes();
@@ -253,9 +254,14 @@ public class MiAmigoArtificial_3 extends JPanel {
         Chistes oC = new Chistes();
         oC.mostrarOpciones();
     }
-    
-    public static void ObtenerHistorias(){
+
+    public static void ObtenerHistorias() {
         Historias oH = new Historias();
         oH.LeerLibros();
     }
+
+    public static void ObtenerAyuda() {
+
+    }
+
 }

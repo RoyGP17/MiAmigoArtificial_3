@@ -1,28 +1,28 @@
-
 package Recomendaciones;
 
 import java.util.Scanner;
 
 public class Gastronomico extends Recomendacion {
-    
+
     Scanner entrada = new Scanner(System.in);
-    
-    
+
     @Override
-    public void recomendacionGastronomica(){
-        
+    public void recomendacionGastronomica() {
+
         System.out.println("\nMira que te puedo recomendar"
                 + "\n el tipo de comida de tu preferencia elije uno va.");
         int opcion = 0;
         int opcion1 = 0;
         int opcion2 = 0;
-        
-        do{
+
+        do
+        {
             System.out.println("1. Amazonicos");
             System.out.println("2. Criollos");
             System.out.println("3. volver");
             opcion = entrada.nextInt();
-            switch(opcion){
+            switch (opcion)
+            {
                 case 1:
                     System.out.println("ELIJA UNO DE LOS PLATOS AMAZONICOS: ");
                     System.out.println("\t1. Tacacho con cecina");
@@ -41,10 +41,11 @@ public class Gastronomico extends Recomendacion {
                     System.out.println("\t14. Carpacho de bagre");
                     System.out.println("\t15. Carpacho de cabrilla");
                     System.out.println("\tSELECCIONA UN PLATO");
-                    
+
                     opcion1 = entrada.nextInt();
-                    
-                    switch(opcion1){
+
+                    switch (opcion1)
+                    {
                         case 1:
                             System.out.println("El precio de Tacacho con cecina es: " + 28.00);
                             break;
@@ -111,8 +112,9 @@ public class Gastronomico extends Recomendacion {
                     System.out.println("\t11. volver");
                     System.out.println("SELECCIONA UN PLATO");
                     opcion2 = entrada.nextInt();
-                    
-                    switch(opcion2){
+
+                    switch (opcion2)
+                    {
                         case 1:
                             System.out.println("El precio de Bisteck a lo pobre es: " + 28.00);
                             break;
@@ -154,6 +156,6 @@ public class Gastronomico extends Recomendacion {
                 default:
                     System.out.println("Elija una opcion correcta");
             }
-        }while(opcion!=3);
+        } while (opcion != 3);
     }
 }
