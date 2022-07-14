@@ -142,8 +142,6 @@ public class MiAmigoArtificial_3 {
         */
         //Imprimimos el menú(Hafid)
         /*
-        System.out.println("Elija una de las opciones");
-        System.out.println("1.Libros");
         Administrador1.menu();
         */
         
