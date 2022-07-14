@@ -29,8 +29,8 @@ public class AyudaTareas extends Ayuda{
             case 1:
                 System.out.println("\nFísica es la ciencia natural con fundamentos que estudia "
                 + "\nel universo, energía, Espacio - Tiempo propiedades de materia, "
-                + "\ninteracción con movimiento dee todo lo que rige en leyes de "
-                + "\ncomportamientos está la mecánica cuántica y lo físico teoico"
+                + "\ninteracción con movimiento de todo lo que rige en leyes de "
+                + "\ncomportamientos está la mecánica cuántica y lo físico teorico"
                 + "\nla clásica a lo macro y la moderna en microscópico. Puedes "
                 + "\nver la matrix o vivir siempre con miedo, Quejarte del mundo "
                 + "\no aprender su juego .... Mi vida era escalar hasta que tope"
