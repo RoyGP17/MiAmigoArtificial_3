@@ -43,6 +43,7 @@ public class Recomendacion {
         oG.recomendacionGastronomica();
     }
 
+    
     public void recomendacionAcademica() {
         System.out.println("Usted a llegado al lugar correcto para las \n recomendaciones academicas");
         Academico oA = new Academico();

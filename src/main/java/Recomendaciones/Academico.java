@@ -15,6 +15,7 @@ public class Academico extends Recomendacion {
         int opcion1 = 0;
         int opcion2 = 0;
 
+        
         do
         {
             System.out.println("\nHey! mi querico amigo, estas en la seccion de recomendaciones "

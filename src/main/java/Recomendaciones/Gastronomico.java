@@ -7,6 +7,7 @@ public class Gastronomico extends Recomendacion {
     
     Scanner entrada = new Scanner(System.in);
     
+    
     @Override
     public void recomendacionGastronomica(){
         
