@@ -5,9 +5,10 @@ import java.util.Scanner;
  *
  * @author hp
  */
-public class Principal {
+public class Chistes {
     static Scanner scanner = new Scanner(System.in);
-    public static void main(String[] args) {
+    
+    public void mostrarOpciones(){
         // Una sentencia que se ejecuta al menos una vez y es reejecutada cada vez que la condición se evalúa a verdadera.
         int opcion =0;
         
@@ -49,7 +50,6 @@ public class Principal {
 
     private static void ChistesBlancos() {
         ChistesBlancos.blancos();
-   
     }
 
     private static void ChistesBuenos() {
