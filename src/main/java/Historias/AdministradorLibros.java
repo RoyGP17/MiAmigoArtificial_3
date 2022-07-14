@@ -32,11 +32,14 @@ public class AdministradorLibros {
         }
     }
     public void menu(){
+        System.out.println("Elija una de las opciones");
+        System.out.println("1.Libros");
         Scanner entrada = new Scanner(System.in);
         int Respuesta = entrada.nextInt();
         //Random random = new Random();
         //int Aleatorio = random.nextInt(2);
         Scanner scanner = new Scanner(System.in);
+        
         switch(Respuesta){
             case(1):
                 System.out.println("Quieres que te cuente algo  ^^");
