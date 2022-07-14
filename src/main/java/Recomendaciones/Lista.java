@@ -41,6 +41,7 @@ public class Lista {
         CarrerasUnsch.add("\nCarrera profesional de obstetricia");
         System.out.println(CarrerasUnsch);
     }
+    
 
     public static void ListacarrerasUnsaac() {
 
