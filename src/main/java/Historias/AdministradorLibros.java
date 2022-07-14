@@ -53,29 +53,35 @@ public class AdministradorLibros {
                     switch(Respuesta1){
                         case(1): 
                             Random random = new Random();
-                            int Aleatorio = random.nextInt(2);
+                            int Aleatorio = random.nextInt(3);
                             this.listaLibrosDeDrama[Aleatorio].introduccion();
                             this.listaLibrosDeDrama[Aleatorio].leerLibro(); 
                             break;
                         case(2): 
                             Random random1 = new Random();
-                            int Aleatorio1 = random1.nextInt(2);
+                            int Aleatorio1 = random1.nextInt(3);
                             this.listaLibrosDeAventura[Aleatorio1].introduccion();
                             this.listaLibrosDeAventura[Aleatorio1].leerLibro();
+                            break;
                         case(3):
                             Random random2 = new Random();
-                            int Aleatorio2 = random2.nextInt(2);
+                            int Aleatorio2 = random2.nextInt(3);
                             this.listaLibrosDeComedia[Aleatorio2].introduccion();
                             this.listaLibrosDeComedia[Aleatorio2].leerLibro();
+                            break;
                         case(4):
                             System.out.println("Adios");
+                            break;
                         default:
-                            System.out.println("No hay esa opcion, intenta nuevamente");
+                            System.out.println("¡ay!, ¿ya te vas?, bueno cuidate ^^");
+                            break;
                         }
                 
                 }while(Respuesta1!= 4);
+            break;
             default:
               System.out.println("No hay esa opcion, intenta nuevamente");  
-        }    
+            break;  
+        }   
     }
 }
