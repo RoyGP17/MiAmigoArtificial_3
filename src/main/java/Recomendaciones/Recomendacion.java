@@ -12,7 +12,8 @@ public class Recomendacion {
 
         int opcion = 0;
 
-        do {
+        do
+        {
             System.out.println("1. Recomendacion gastronómica");
             System.out.println("2. Recomendacion académica");
             System.out.println("3. Salir");
@@ -20,7 +21,8 @@ public class Recomendacion {
 
             opcion = entrada.nextInt();
 
-            switch (opcion) {
+            switch (opcion)
+            {
                 case 1:
                     recomendacionGastronomica();
                     break;
@@ -43,7 +45,6 @@ public class Recomendacion {
         oG.recomendacionGastronomica();
     }
 
-    
     public void recomendacionAcademica() {
         System.out.println("Usted a llegado al lugar correcto para las \n recomendaciones academicas");
         Academico oA = new Academico();

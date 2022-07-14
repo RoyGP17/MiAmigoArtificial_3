@@ -1,5 +1,6 @@
 package miamigoartificial;
 //Fritz
+
 import java.io.IOException;
 
 import javax.swing.JPanel;
@@ -9,6 +10,7 @@ import javax.swing.JLabel;
 //-------------------
 import static Alerta.Alerta.MostrarMensaje;
 import static Alerta.Cumpleaños.AlertaCumpleaños;
+import Chistes.Chistes;
 import Interfaz.ImagenGato;
 import Presentacion.Presentacion;
 import static Presentacion.Presentacion.adivinarEdad;
@@ -20,20 +22,23 @@ import Historias.LibroDrama;
 import Historias.LibroComedia;
 import Historias.LibroAventura;
 import Historias.AdministradorLibros;
+import Historias.Historias;
 
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 
-public class MiAmigoArtificial_3 extends JPanel{
+public class MiAmigoArtificial_3 extends JPanel {
+
     private static final int ANCHO = 1164;
     private static final int LARGO = 690;
 
     final static Scanner entrada = new Scanner(System.in);
+
     public static void main(String[] args) throws IOException {
         //Presentacion
         String a = "Yo soy tu amigo artificial";
         JOptionPane.showMessageDialog(null, "¡Hola!, dejame presentarme: " + a + "\nJarvis");
-        
+
         /*//Objetos de libro(Hafid)
          LibroDrama oLibroDrama1 = new LibroDrama(1,"Henry James","\n\tLas bostonianas","Drama","En 1885, Henry James "
             + "\nes un escritor que tiene el reconocimiento del público y la crítica. "
@@ -135,7 +140,7 @@ public class MiAmigoArtificial_3 extends JPanel{
             + "\ndisfrutado de esta hilarante novela, que ha colocado a David Safier en lo más alto de la escena literaria europea."
             + "\nMaldito karma es una historia de desbordante fantasía, una entrañable fábula que, entre carcajadas, nos ayuda a "
             + "\nreflexionar sobre las prioridades de nuestra vida. Léela y descubre el secreto de la felicidad.");
-        */
+         */
         //Filtramos los libros (Hafid)
         /*
         AdministradorLibros Administrador1 = new AdministradorLibros();
@@ -150,48 +155,81 @@ public class MiAmigoArtificial_3 extends JPanel{
         Administrador1.agregarLibro(oLibroComedia1, "COMEDIA", 0);
         Administrador1.agregarLibro(oLibroComedia2, "COMEDIA", 1);
         Administrador1.agregarLibro(oLibroComedia3, "COMEDIA", 2);
-        */
+         */
         //Imprimimos el menú(Hafid)
         /*
         Administrador1.menu();
-        */
-        
+         */
         saludar();
         recordarNombre();
         adivinarEdad();
 
-        
-        if (Presentacion.siguiente()==0){
+        int OpcionDeEntrada = 0;
+        do
+        {
+            System.out.println("\nHey! que te gustaria jugar comnigo");
+            System.out.println("1. ALERTA");
+            System.out.println("2. AYUDA");
+            System.out.println("3. CHISTES");
+            System.out.println("4. HISTORIAS");
+            System.out.println("5. RECOMENDACIONES");
+            System.out.println("0. salir");
+            OpcionDeEntrada = entrada.nextInt();
+            switch (OpcionDeEntrada)
+            {
+                case 1:
+                    AlertaCumpleaños();
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    ObtenerChistes();
+                    break;
+                case 4:
+                    ObtenerHistorias();
+                    break;
+                case 5:
+                    ObtenerRecomendaciones();
+                    break;
+                default:
+                    System.out.println("OPCION INCORRECTA!");
+            }
+        } while (OpcionDeEntrada != 0);
+        System.out.println("Mucho gusto mi quirido amigo, me encanto ser tu amigo "
+                + "\nen estos mil años de aventura");
+
+        if (Presentacion.siguiente() == 0)
+        {
             AñadirVentana();
-        } else {
+        } else
+        {
             JOptionPane.showMessageDialog(null, "Vuelve pronto");
         }
-                ObtenerRecomendaciones();
-        AlertaCumpleaños();
 
     }
-        public static void AñadirVentana() throws IOException{
-                //Creamos la ventana
-                JFrame Ventana1 = new JFrame("Mi Amigo Artificial");
-                Presentacion b = new Presentacion();
-                //String aea = b.saludar().toString();
-                JLabel etiqueta1, etiqueta2;
-                //etiqueta1 = new JLabel(aea, JLabel.CENTER);
-                etiqueta2 = new JLabel("");
 
-                MiAmigoArtificial_3 objeto = new MiAmigoArtificial_3();
+    public static void AñadirVentana() throws IOException {
+        //Creamos la ventana
+        JFrame Ventana1 = new JFrame("Mi Amigo Artificial");
+        Presentacion b = new Presentacion();
+        //String aea = b.saludar().toString();
+        JLabel etiqueta1, etiqueta2;
+        //etiqueta1 = new JLabel(aea, JLabel.CENTER);
+        etiqueta2 = new JLabel("");
 
-                Ventana1.setSize(ANCHO, LARGO);
-                //Ventana1.getContentPane().add(objeto);
-                //Ventana1.add(etiqueta1).setLocation(0, 150);
-                //Ventana1.add(etiqueta2);
-                Ventana1.add(new ImagenGato());
-                Ventana1.setLocation(0, 0);
-                Ventana1.setLocationRelativeTo(null);
-                Ventana1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                Ventana1.setVisible(true);
-                //----------------------------------
-            }
+        MiAmigoArtificial_3 objeto = new MiAmigoArtificial_3();
+
+        Ventana1.setSize(ANCHO, LARGO);
+        //Ventana1.getContentPane().add(objeto);
+        //Ventana1.add(etiqueta1).setLocation(0, 150);
+        //Ventana1.add(etiqueta2);
+        Ventana1.add(new ImagenGato());
+        Ventana1.setLocation(0, 0);
+        Ventana1.setLocationRelativeTo(null);
+        Ventana1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Ventana1.setVisible(true);
+        //----------------------------------
+    }
 
     public static void recordarNombre() {
         System.out.println("\nBueno ahora es tu turno de decirme como te llamas: ");
@@ -209,5 +247,15 @@ public class MiAmigoArtificial_3 extends JPanel{
     public static void ObtenerRecomendaciones() {
         Recomendacion or = new Recomendacion();
         or.recomendacion();
+    }
+
+    public static void ObtenerChistes() {
+        Chistes oC = new Chistes();
+        oC.mostrarOpciones();
+    }
+    
+    public static void ObtenerHistorias(){
+        Historias oH = new Historias();
+        oH.LeerLibros();
     }
 }
