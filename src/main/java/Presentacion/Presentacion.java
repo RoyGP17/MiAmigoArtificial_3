@@ -2,6 +2,8 @@
 package Presentacion;
 
 import java.util.Scanner;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 public class Presentacion {
     
@@ -27,6 +29,15 @@ public class Presentacion {
         System.out.println("haciendo un esfuerzo mental y mis fabulosos cálculos");
         System.out.println("Me arroja que tu edad es "+ edad +" y de hecho somos compatibles asi como");
         System.out.println("el signo nega y posi");
+    }
+    //mOSTRAR EL jOPTION SHOWcONFIRM dIALOG
+    public static int siguiente(){
+        ImageIcon icono = new ImageIcon("C:\\Users\\FRITZBRENNER\\Desktop\\MiAmigoArtificial_3\\src\\main\\java\\Imagenes\\rainbow-neko.gif");
+        /*Image image = icono.getImage();
+        Image newimg = image.getScaledInstance(120, 120,  java.awt.Image.SCALE_SMOOTH);
+        icono = new ImageIcon(newimg);*/
+        int seleccion = JOptionPane.showConfirmDialog(null, "Podemos continuar?", "Siii", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, icono );
+        return seleccion;
     }
 }
 
