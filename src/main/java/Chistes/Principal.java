@@ -1,17 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Chistes;
-
 import java.util.Scanner;
-
 /**
  *
  * @author hp
  */
-public class Principal1 {
-    
+public class Principal {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         // Una sentencia que se ejecuta al menos una vez y es reejecutada cada vez que la condición se evalúa a verdadera.
@@ -68,5 +62,6 @@ public class Principal1 {
         ChistesRojos.Rojos();
     
     }
+    
     
 }
