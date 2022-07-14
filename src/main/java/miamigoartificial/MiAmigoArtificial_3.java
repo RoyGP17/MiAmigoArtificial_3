@@ -5,12 +5,10 @@ import java.io.IOException;
 
 import javax.swing.JPanel;
 import javax.swing.JFrame;
-import java.util.Scanner;
 import javax.swing.JLabel;
 //-------------------
 import static Alerta.Alerta.MostrarMensaje;
 import static Alerta.Cumpleaños.AlertaCumpleaños;
-import Ayuda.Ayuda;
 import Ayuda.AyudaPrincipal;
 import Chistes.Chistes;
 import Interfaz.ImagenGato;
@@ -19,11 +17,6 @@ import static Presentacion.Presentacion.adivinarEdad;
 import static Presentacion.Presentacion.saludar;
 import Presentacion.Usuario;
 import Recomendaciones.Recomendacion;
-import Historias.Libro;
-import Historias.LibroDrama;
-import Historias.LibroComedia;
-import Historias.LibroAventura;
-import Historias.AdministradorLibros;
 import Historias.Historias;
 import static Presentacion.Presentacion.saludoPrincipal;
 
