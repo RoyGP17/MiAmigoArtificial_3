@@ -42,15 +42,15 @@ public class AdministradorLibros {
         
         switch(Respuesta){
             case(1):
-                System.out.println("Quieres que te cuente algo  ^^");
-                System.out.println("Está bien");
+                System.out.println("Bienbenid@ al mundo de los libros, echemos un vistaso a lo que tenemos:"
+                        + "\n viajemos al interior de tu mente");
                 int Respuesta1 = 0;
 
                 do{
                     System.out.println("Tenemos las siguientes bibliotecas");
                     System.out.println("1) Libros de Drama");
                     System.out.println("2) Libors de Aventura");
-                    System.out.println("2) Libros de Comedia");
+                    System.out.println("3) Libros de Comedia");
                     System.out.println("4) Salir");
                     Respuesta1 = scanner.nextInt();
                     switch(Respuesta1){
@@ -58,32 +58,35 @@ public class AdministradorLibros {
                             Random random = new Random();
                             int Aleatorio = random.nextInt(3);
                             this.listaLibrosDeDrama[Aleatorio].introduccion();
-                            this.listaLibrosDeDrama[Aleatorio].leerLibro(); 
+                            this.listaLibrosDeDrama[Aleatorio].leerLibro();
+                            System.out.println("Al parcer esta esta comenzando a llover :c ");
                             break;
                         case(2): 
                             Random random1 = new Random();
                             int Aleatorio1 = random1.nextInt(3);
                             this.listaLibrosDeAventura[Aleatorio1].introduccion();
                             this.listaLibrosDeAventura[Aleatorio1].leerLibro();
+                            System.out.println("Wooow que increible no lo crees :0 ");
                             break;
                         case(3):
                             Random random2 = new Random();
                             int Aleatorio2 = random2.nextInt(3);
                             this.listaLibrosDeComedia[Aleatorio2].introduccion();
                             this.listaLibrosDeComedia[Aleatorio2].leerLibro();
+                            System.out.println("¡JAJAJA!, reí tanto que me duele el estomago xD");
                             break;
                         case(4):
-                            System.out.println("Adios");
+                            System.out.println("¡ay!, ¿ya te vas?, bueno cuidate ^^");
                             break;
                         default:
-                            System.out.println("¡ay!, ¿ya te vas?, bueno cuidate ^^");
+                            System.out.println("#Error: lo siento no entiendo, vuelvelo a intentar si...");
                             break;
                         }
                 
                 }while(Respuesta1!= 4);
             break;
             default:
-              System.out.println("No hay esa opcion, intenta nuevamente");  
+              System.out.println("#Error: lo siento no entiendo, vuelvelo a intentar si...");  
             break;  
         }   
     }
