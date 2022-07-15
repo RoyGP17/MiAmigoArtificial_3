@@ -27,8 +27,9 @@ public class AdministradorLibros {
     }
 
     public void menu() {
-        System.out.println("Elija una de las opciones");
-        System.out.println("1.Libros");
+        System.out.println("HOLA, ELIJE UNA DE LAS OPCIONES");
+        System.out.println("1) LIBROS");
+        System.out.println("2) VOLVER");
         Scanner entrada = new Scanner(System.in);
         int Respuesta = entrada.nextInt();
         //Random random = new Random();
@@ -44,11 +45,11 @@ public class AdministradorLibros {
 
                 do
                 {
-                    System.out.println("Tenemos las siguientes bibliotecas");
-                    System.out.println("1) Libros de Drama");
-                    System.out.println("2) Libors de Aventura");
-                    System.out.println("3) Libros de Comedia");
-                    System.out.println("4) Salir");
+                    System.out.println("TE PRESENTO LAS SIGUIENTES BIBLIOTECAS");
+                    System.out.println("1) LIBROS DE DRAMA");
+                    System.out.println("2) LIBROS DE AVENTURA");
+                    System.out.println("3) LIBRO DE COMEDIA");
+                    System.out.println("4) VOLVER");
                     Respuesta1 = scanner.nextInt();
                     switch (Respuesta1)
                     {
