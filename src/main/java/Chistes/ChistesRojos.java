@@ -1,62 +1,60 @@
-
 package Chistes;
 
 import java.util.Scanner;
 
-/**
- *
- * @author hp
- */
-public class ChistesRojos extends Chistes{
-    public static void Rojos(){
+public class ChistesRojos extends Chistes {
+
+    public static void Rojos() {
         Scanner entra = new Scanner(System.in);
-        
-        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES"
+
+        System.out.println("HOLA,  MI NOMBRE ES SERWAY QUIERES CHISTES ???"
                 + "\nSi estás seguro de que quieres leer MEJORES CHISTES ROJOS digite ***rojos***\n "
-                + "y si no digite cualquier número");
+                + "y si no digite VOLVER");
         String respuesta = entra.nextLine();
-        
-        if(respuesta.equals("rojos")==true){
-            
-            System.out.println("Un elefante se encuentra con un camello, y le pregunta:\n" +
-            "¿cómo es que tienes los pechos en la espalda?\n" +
-            "¿y tú me lo preguntas, que llevas el miembro en la cara?\n"+
-            "******************************************\n"+
-            "Mamá, tengo dos noticias, una buena y una mala.\n" +
-            "Primero la buena, hija.\n" +
-            "Pasé una prueba.\n" +
-            "Muy bien, ¿Y la mala?\n" +
-            "Que era un Test de embarazo...\n"+
-            "******************************************\n"+
-            "Al final, he decidido hacerme la vasectomía.\n" +
-            "Habrá tenido que ser una decisión difícil ¿no?\n" +
-            "Ya lo creo. Hicimos una votación popular entre mis hijos,\n"+
-            "mi mujer y yo, y al final perdí por 16 a 17.\n");
-                    
+
+        if (respuesta.equals("rojos") == true)
+        {
+
+            System.out.println("Un elefante se encuentra con un camello, y le pregunta:\n"
+                    + "¿cómo es que tienes los pechos en la espalda?\n"
+                    + "¿y tú me lo preguntas, que llevas el miembro en la cara?\n"
+                    + "******************************************\n"
+                    + "Mamá, tengo dos noticias, una buena y una mala.\n"
+                    + "Primero la buena, hija.\n"
+                    + "Pasé una prueba.\n"
+                    + "Muy bien, ¿Y la mala?\n"
+                    + "Que era un Test de embarazo...\n"
+                    + "******************************************\n"
+                    + "Al final, he decidido hacerme la vasectomía.\n"
+                    + "Habrá tenido que ser una decisión difícil ¿no?\n"
+                    + "Ya lo creo. Hicimos una votación popular entre mis hijos,\n"
+                    + "mi mujer y yo, y al final perdí por 16 a 17.\n");
+
             Scanner entra1 = new Scanner(System.in);
-            System.out.println("¿Quieres más chistes ROJOS: ?");
+            System.out.println("Si Quieres más chistes ROJOS digite **Si**: ?");
             String respuesta1 = entra1.nextLine();
-            
-            if(respuesta1.equals("si")==true){
+
+            if (respuesta1.equals("si") == true)
+            {
                 System.out.println("Como usted diga");
-                System.out.println("¿Cuáles son las mujeres que mejor conocen su cuerpo?\n" +
-                "- Aquellas que se tocan, porque lo conocen al dedillo…"+
-                "***************************************************"+
-                "Una madre le dice a su hijo: ¡Me dice un pajarito que te drogas!\n" +
-                "¡La que se droga eres tú que habla con pajaritos!");
+                System.out.println("¿Cuáles son las mujeres que mejor conocen su cuerpo?\n"
+                        + "- Aquellas que se tocan, porque lo conocen al dedillo…"
+                        + "***************************************************\n"
+                        + "Una madre le dice a su hijo: ¡Me dice un pajarito que te drogas!\n"
+                        + "¡La que se droga eres tú que habla con pajaritos!\n");
+            } else
+            {
+                System.out.println("Entiendo, ya no le contaremos más chistes rojos");
             }
-            else{
-                System.out.println("Entiendo, ya no le contaremos más chistes rojos");           
-            }  
-        
-        }    
-        else{
-            System.out.println("ENTIENDO\n" +
-            "YA NO LE CONTAREMOS MÁS CHISTES ROJOS "
-            + "PERO, SI DESEA OTRO TIPO DE CHISTES VUELVA A DIGITAR UNA OPCIÓN");
-    
+
+        } else
+        {
+            System.out.println("ENTIENDO\n"
+                    + "YA NO LE CONTAREMOS MÁS CHISTES ROJOS "
+                    + "PERO, SI DESEA OTRO TIPO DE CHISTES VUELVA A DIGITAR UNA OPCIÓN");
+
         }
-        
-    }    
-    
+
+    }
+
 }
