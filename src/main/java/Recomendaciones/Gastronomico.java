@@ -47,49 +47,64 @@ public class Gastronomico extends Recomendacion {
                     switch (opcion1)
                     {
                         case 1:
-                            System.out.println("El precio de Tacacho con cecina es: " + 28.00);
+                            System.out.println("El precio de Tacacho con cecina es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 2:
-                            System.out.println("El precio de Crorixo con patacones es: " + 28.00);
+                            System.out.println("El precio de Crorizo con patacones es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 3:
-                            System.out.println("El precio de chaufa de cecina es: " + 20.00);
+                            System.out.println("El precio de chaufa de cecina es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 4:
-                            System.out.println("El precio de Cecina a la parrilla es: " + 25.00);
+                            System.out.println("El precio de Cecina a la parrilla es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 5:
-                            System.out.println("El precio de Yuca rellena es: " + 28.00);
+                            System.out.println("El precio de Yuca rellena es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 6:
-                            System.out.println("El precio de Juanes de gallina es: " + 30.00);
+                            System.out.println("El precio de Juanes de gallina es: " + 30.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 7:
-                            System.out.println("El precio de Albondigas de cecina con chorizo es: " + 28.00);
+                            System.out.println("El precio de Albondigas de cecina con chorizo es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 8:
-                            System.out.println("El precio de Chaufa salvaje es: " + 20.00);
+                            System.out.println("El precio de Chaufa salvaje es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 9:
-                            System.out.println("El precio de Chaufa de chorizo es: " + 20.00);
+                            System.out.println("El precio de Chaufa de chorizo es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 10:
-                            System.out.println("El precio de Aeropuerto de cecina es: " + 20.00);
+                            System.out.println("El precio de Aeropuerto de cecina es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 11:
-                            System.out.println("El precio de Aeropuerto de chorizo es: " + 20.00);
+                            System.out.println("El precio de Aeropuerto de chorizo es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 12:
-                            System.out.println("El precio de Pescado a lo macho es: " + 28.00);
+                            System.out.println("El precio de Pescado a lo macho es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 13:
-                            System.out.println("El precio de Jalea mixta amazonica es: " + 28.00);
+                            System.out.println("El precio de Jalea mixta amazonica es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 14:
-                            System.out.println("El precio de Carpacho de bagre es: " + 30.00);
+                            System.out.println("El precio de Carpacho de bagre es: " + 30.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 15:
-                            System.out.println("El precio de Carpacho de cabrilla es: " + 30.00);
+                            System.out.println("El precio de Carpacho de cabrilla es: " + 30.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 16:
                             break;
@@ -116,34 +131,44 @@ public class Gastronomico extends Recomendacion {
                     switch (opcion2)
                     {
                         case 1:
-                            System.out.println("El precio de Bisteck a lo pobre es: " + 28.00);
+                            System.out.println("El precio de Bisteck a lo pobre es: " + 28.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 2:
-                            System.out.println("El precio de Alitas broaster es: " + 20.00);
+                            System.out.println("El precio de Alitas broaster es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 3:
-                            System.out.println("El precio de Piernitas broaster es: " + 20.00);
+                            System.out.println("El precio de Piernitas broaster es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 4:
-                            System.out.println("El precio de Saltado de lomo fino es: " + 25.00);
+                            System.out.println("El precio de Saltado de lomo fino es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 5:
-                            System.out.println("El precio de Tallarin saltado de lomo fino es: " + 25.00);
+                            System.out.println("El precio de Tallarin saltado de lomo fino es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 6:
-                            System.out.println("El precio de Tallarines verdes con bisteck es: " + 25.00);
+                            System.out.println("El precio de Tallarines verdes con bisteck es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 7:
-                            System.out.println("El precio de Tacu tacu con lomo fino es: " + 25.00);
+                            System.out.println("El precio de Tacu tacu con lomo fino es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 8:
-                            System.out.println("El precio de Cabrito a la norteña es: " + 25.00);
+                            System.out.println("El precio de Cabrito a la norteña es: " + 25.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 9:
-                            System.out.println("El precio de Chaufa de carne de lomo fino es: " + 20.00);
+                            System.out.println("El precio de Chaufa de carne de lomo fino es: " + 20.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 10:
-                            System.out.println("El precio de Chaufa de pollo es: " + 15.00);
+                            System.out.println("El precio de Chaufa de pollo es: " + 15.00
+                                    + "\n te recomiendo ir a Rustica.Br");
                             break;
                         case 11:
                             break;

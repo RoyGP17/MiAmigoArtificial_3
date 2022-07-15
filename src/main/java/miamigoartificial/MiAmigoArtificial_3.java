@@ -54,6 +54,7 @@ public class MiAmigoArtificial_3 extends JPanel {
             //Mostrar ventana de despedida y gato controlable
             JOptionPane.showMessageDialog(null, "Puedes controlarlo con las teclas: \nw para mover arriba. \ns para mover abajo. "
                     + "\na para moverlo a la izquierda, \nd para moverlo a la derecha \n y ENTER para salir.");
+            //Mostrar ventana de despedida y video
             AñadirVentana();
         } else
         {
