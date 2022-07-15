@@ -16,7 +16,7 @@ public class Recomendacion {
         {
             System.out.println("1. Recomendacion gastronómica");
             System.out.println("2. Recomendacion académica");
-            System.out.println("3. Salir");
+            System.out.println("3. Volver");
             System.out.println("POR FAVOR ELIJA UNA OPCION: ");
 
             opcion = entrada.nextInt();

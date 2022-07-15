@@ -46,9 +46,9 @@ public class Lista {
 
         List<String> CarrerasUnsaac = new ArrayList<String>();
         System.out.println("\nLa universidad nacional de san Antonio de Abad del Cusco "
-                + "\ncuenta con las siguientes carreras de amplio desarrollo en nuestro "
-                + "pais las cuales yo te recomiendo estudiar en esta bella universidad.");
-        System.out.println("GRUPO A");
+                + "\ncuenta con las siguientes carreras para un buen desarrollo del "
+                + "\npais las cuales yo te recomiendo estas carreras de esta bella universidad.");
+        //System.out.println("GRUPO A");
         CarrerasUnsaac.add("\nCarrera profesional de arquitectura");
         CarrerasUnsaac.add("\nCarrera profesional de ingeniería electrica");
         CarrerasUnsaac.add("\nCarrera profesional de ingeniería geológica");
@@ -64,7 +64,7 @@ public class Lista {
         CarrerasUnsaac.add("\nCarrera profesional de ingeniería agroindustrial");
         CarrerasUnsaac.add("\nCarrera profesional de electrónica");
         CarrerasUnsaac.add("\nCarrera profesional de petroquímica");
-        System.out.println("GRUPO B");
+        //System.out.println("GRUPO B");
         CarrerasUnsaac.add("\nCarrera profesional de agronomia");
         CarrerasUnsaac.add("\nCarrera profesional de biología");
         CarrerasUnsaac.add("\nCarrera profesional de farmacia y bioquimica");
@@ -76,7 +76,7 @@ public class Lista {
         CarrerasUnsaac.add("\nCarrera profesional de obstetricia(andahuaylas)");
         CarrerasUnsaac.add("\nCarrera profesional de ingeniería agropecueria(Santo Tomas)");
         CarrerasUnsaac.add("\nCarrera profesional de medicina veterinaria(sicuini, espinar)");
-        System.out.println("GRUPO C");
+        //System.out.println("GRUPO C");
         CarrerasUnsaac.add("\nCarrera profesional de ciencias administrativas");
         CarrerasUnsaac.add("\nCarrera profesional de contabilidad");
         CarrerasUnsaac.add("\nCarrera profesional de economia");
@@ -95,5 +95,6 @@ public class Lista {
         CarrerasUnsaac.add("\nCarrera profesional de educacion de ciancias sociales");
         CarrerasUnsaac.add("\nCarrera profesional de educacion fisica");
         CarrerasUnsaac.add("\nCarrera profesional de educuacion primaria");
+        System.out.println(CarrerasUnsaac);
     }
 }
